@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding new file on 28-feb-2025" />
+    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 28-feb-2025">
+      <change afterPath="$PROJECT_DIR$/pageObjects/AccountRegistrationPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/randomString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Madhukar19996&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python.git&quot;,
+    &quot;accountId&quot;: &quot;003fde11-e5d0-4cff-bbe5-df7fbac26059&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pageObjects/AccountRegistrationPage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pageObjects/HomePage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testCases/conftest.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testCases/test_002.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -34,6 +61,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.executor": "Run",
+    "Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg.executor": "Run",
+    "Python tests.Python tests in test_001_AccountRegistration.py.executor": "Run",
+    "Python.AccountRegistrationPage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
@@ -46,6 +77,67 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\Opencart_V1.0_Selenium_Python" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg">
+    <configuration name="AccountRegistrationPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Opencart_V1.0_Selenium_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pageObjects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pageObjects/AccountRegistrationPage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_001_AccountRegistration.Test_001_AccountReg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Opencart_V1.0_Selenium_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_001_AccountRegistration.Test_001_AccountReg&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Opencart_V1.0_Selenium_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_001_AccountRegistration.Test_001_AccountReg.test_account_reg&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg" />
+        <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg" />
+        <item itemvalue="Python.AccountRegistrationPage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,14 +179,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740710216039</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding new file on 28-feb-2025">
+      <option name="closed" value="true" />
+      <created>1740710357723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740710357723</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding New file on 28-feb-2025">
+      <option name="closed" value="true" />
+      <created>1740710482670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740710482670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add new files" />
     <MESSAGE value="Add new file on 28-feb-2025" />
     <MESSAGE value="Adding new file on 28-feb-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new file on 28-feb-2025" />
+    <MESSAGE value="Adding New file on 28-feb-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 28-feb-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -103,6 +212,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testCases/test_001_AccountRegistration.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
