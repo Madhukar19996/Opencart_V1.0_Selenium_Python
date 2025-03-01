@@ -18,12 +18,9 @@ pip install mysql-connector-python
 pip install pytest-reportportal
 pip install python-dotenv
 How to run the Framework?
-pytest -n auto tests/opencart/pom/test_*
+ pytest -n auto tests/opencart/pom/test_*
 
-![img_1.png](img_1.png)
+![img.png](../img.png)
 
 How to run Testcase parallel ?
-
-![img.png](img.png)
-
-
+![img_1.png](../img_1.png)
