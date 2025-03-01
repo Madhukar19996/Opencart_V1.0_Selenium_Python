@@ -116,4 +116,5 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/pycharm
 .env
+config.ini
 allure_results
