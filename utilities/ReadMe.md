@@ -20,7 +20,7 @@ pip install python-dotenv
 How to run the Framework?
  pytest -n auto tests/opencart/pom/test_*
 
-![img.png](../img.png)
+https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img.png
 
 How to run Testcase parallel ?
-![img_1.png](../img_1.png)
+https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img_1.png
