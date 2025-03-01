@@ -12,9 +12,9 @@ class Test_001_AccountReg:
     load_dotenv()
 
     @allure.title("Verify that Opencart Registration Account Testing")
-    @allure.description("TC1 - Positive TestCase - Fill the registration form with Valid data and verify whether account created ")
-    @allure.feature("Opencart Registration with Valid Credentials")
-    @pytest.mark.Positive
+    @allure.description("TC2 - Negative TestCase - Fill the registration form with Inalid data and verify whether account created or Not")
+    @allure.feature("Opencart Registration with Inalid Credentials")
+    @pytest.mark.Negative
     def test_account_reg(self, setup):
         self.driver = setup
         driver=self.driver
@@ -36,9 +36,9 @@ class Test_001_AccountReg:
         time.sleep(1)
         self.regpage.setLastName(os.getenv("LAST_NAME_001_OC"))
         time.sleep(1)
-        self.email =random_string_generator() + 'pandey@gmail.com'
+        # self.email =random_string_generator() + 'pandey@gmail.com'
 
-        self.regpage.setEmail(self.email)
+        self.regpage.setEmail("madhukar1232")
         take_screen_shot(driver=driver, name="Random E-mail is Generated")
 
 
@@ -52,7 +52,7 @@ class Test_001_AccountReg:
         self.regpage.setPrivacyPolicy()
         time.sleep(1)
         self.regpage.clickContinue()
-        time.sleep(1)
+        time.sleep(2)
 
 
 
@@ -60,16 +60,18 @@ class Test_001_AccountReg:
         time.sleep(2)
 
 
-        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg.png")
-        take_screen_shot(driver=driver, name="OpencartRegistractionPassed")
+        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg_with_invalid_data.png")
+        take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
         self.driver.close()
 
 
 
 
-        if self.confmsg == "Your Account Has Been Created!":
+        if self.confmsg == "Account Has Been Created!":
+            take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
             assert True
         else:
 
             assert False
+            take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
 
