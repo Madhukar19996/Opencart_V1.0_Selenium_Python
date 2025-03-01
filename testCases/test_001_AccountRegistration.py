@@ -27,7 +27,7 @@ class Test_001_AccountReg:
         self.regpage = AccountRegistrationPage(self.driver)
 
         # self.driver.execute_script("document.body.style.zoom='90%'")
-        load_dotenv()
+
 
 
         self.regpage.setFirstName(os.getenv("NAME_001_OC"))
