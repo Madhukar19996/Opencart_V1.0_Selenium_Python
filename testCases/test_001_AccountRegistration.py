@@ -34,7 +34,7 @@ class Test_001_AccountReg:
         time.sleep(1)
         self.regpage.setLastName(os.getenv("LAST_NAME_001_OC"))
         time.sleep(1)
-        self.email =random_string_generator() + '@gmail.com'
+        self.email =random_string_generator() + 'pandey@gmail.com'
 
         self.regpage.setEmail(self.email)
         time.sleep(1)
@@ -53,7 +53,9 @@ class Test_001_AccountReg:
 
         self.driver.close()
 
-        if self.confmsg == "Your Account Has Been Created!":
+        if self.confmsg == "Account Has Been Created!":
             assert True
         else:
+            self.driver.save_screenshot(os.path.abspath(os.curdir)+"\\screenshots\\"+"test_account_reg.png")
+            self.driver.close()
             assert False
