@@ -12,7 +12,7 @@ class Test_001_AccountReg:
     load_dotenv()
 
     @allure.title("Verify that Opencart Registration Account Testing")
-    @allure.description("TC_001 - Positive TestCase - Fill the registration form with Valid data and verify whether account created ")
+    @allure.description("TC_001 Positive TestCase - Fill the registration form with Valid data and verify whether account created ")
     @allure.feature("Opencart Registration with Valid Credentials")
     @pytest.mark.Positive
     def test_account_reg(self, setup):
