@@ -12,7 +12,7 @@ class Test_001_AccountReg:
     load_dotenv()
 
     @allure.title("Verify that Opencart Registration Account Testing")
-    @allure.description("TC2 - Negative TestCase - Fill the registration form with Inalid data and verify whether account created or Not")
+    @allure.description("TC_002 - Negative TestCase - Fill the registration form with Inalid data and verify whether account created or Not")
     @allure.feature("Opencart Registration with Inalid Credentials")
     @pytest.mark.Negative
     def test_account_reg(self, setup):

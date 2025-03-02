@@ -26,12 +26,12 @@ pytest -n auto testCases/*
 ### How to run Testcase parallel ?
 pytest -n auto testCases/test_001_AccountRegistration.py
 
-![image](https://github.com/user-attachments/assets/8fa1a279-8ce1-410c-a90d-230af8
+![image](https://github.com/user-attachments/assets/8fa1a279-8ce1-410c-a90d-230af8)
 
 
 
 Dry Run Testcases 
-![image](https://github.com/user-attachments/assets/5caa5ae0-c9b1-4d67-b0a2-0b1bff2b
+![image](https://github.com/user-attachments/assets/5caa5ae0-c9b1-4d67-b0a2-0b1bff2b)
 
 
 
