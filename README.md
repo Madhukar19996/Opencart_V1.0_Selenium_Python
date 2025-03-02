@@ -27,7 +27,7 @@ pytest -n auto testCases/*
 ### How to run Testcase parallel ?
 pytest -n auto testCases/test_001_AccountRegistration.py
 
-![image](https://github.com/user-attachments/assets/8fa1a279-8ce1-410c-a90d-230af8)
+![image](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/a66d5930ce58288b244ade146d7279649cf5b3cc/img.png)
 
 Dry Run Testcases 
 
