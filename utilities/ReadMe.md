@@ -8,6 +8,7 @@ Page Object Model and Page Factory both
 Highlight element while run
 Parallel Run with xdist
 MY SQL data base connect to verify data.
+====================================================
 All the dependencies used
 pip install allure-pytest selenium
 pip install pytest selenium pytest-html openpyxl
@@ -20,7 +21,7 @@ pip install python-dotenv
 How to run the Framework?
  pytest -n auto tests/opencart/pom/test_*
 
-https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img.png
-
+![Image Alt](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img.png)
 How to run Testcase parallel ?
-https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img_1.png
+
+![Image Alt](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/master/img_1.png)
