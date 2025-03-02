@@ -9,6 +9,7 @@
 - Highlight element while run
 - Parallel Run with xdist
 - MY SQL data base connect to verify data.
+=====================================================================
 
 ### All the dependencies used
 - pip install allure-pytest selenium
@@ -19,19 +20,19 @@
 - pip install mysql-connector-python
 - pip install pytest-reportportal
 - pip install python-dotenv
-
+=========================================================================
 ### How to run the Framework?
 pytest -n auto testCases/*
 
 ### How to run Testcase parallel ?
 pytest -n auto testCases/test_001_AccountRegistration.py
 
-![image](https://github.com/user-attachments/assets/8fa1a279-8ce1-410c-a90d-230af8)
-
-
+![image](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/a66d5930ce58288b244ade146d7279649cf5b3cc/img.png)
 
 Dry Run Testcases 
-![image](https://github.com/user-attachments/assets/5caa5ae0-c9b1-4d67-b0a2-0b1bff2b)
+
+
+![image](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/c5578acc47816cfbc3bef8ef6a1d023872fe309b/img_1.png)
 
 
 
