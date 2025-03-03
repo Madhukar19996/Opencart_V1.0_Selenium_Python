@@ -1,5 +1,6 @@
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from pageObjects.HomePage import HomePage
+from utilities.customLogger import logclass
 from utilities.randomString import random_string_generator
 import time
 import allure
@@ -8,7 +9,7 @@ from dotenv import load_dotenv
 import os
 from utilities.screenshots import take_screen_shot
 
-class Test_001_AccountReg:
+class Test_001_AccountReg(logclass):
     load_dotenv()
 
     @allure.title("Verify that Opencart Registration Account Testing")
@@ -16,17 +17,23 @@ class Test_001_AccountReg:
     @allure.feature("Opencart Registration with Inalid Credentials")
     @pytest.mark.Negative
     def test_account_reg(self, setup):
+        log = self.getthelogs()
+        log.info("*** test_001_AccountRegistration started ***")
         self.driver = setup
         driver=self.driver
         self.driver.get(os.getenv("BASE_URL"))
+        log.info("*** Launching application ***")
 
         self.driver.maximize_window()
         time.sleep(2)
 
         self.hp = HomePage(self.driver)
         self.hp.clickMyAccount()
+        log.info("*** Clicking on MyAccount ***")
         self.hp.clickRegister()
+        log.info("*** Clicking on Register ***")
         self.regpage = AccountRegistrationPage(self.driver)
+        log.info("*** Providing Customer Details for Registration ***")
 
         # self.driver.execute_script("document.body.style.zoom='90%'")
 
@@ -64,14 +71,21 @@ class Test_001_AccountReg:
         take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
         self.driver.close()
 
+        log.info("*** Account Registration is Passed ***")
+
+
 
 
 
         if self.confmsg == "Account Has Been Created!":
             take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
+            log.info("*** Account Registration is Passed ***")
             assert True
         else:
 
+            log.error("*** Account Registration is Failed ***")
+
             assert False
+
             take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
 

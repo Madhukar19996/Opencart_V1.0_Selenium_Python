@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 2-march-2025">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/ReadMe.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -65,6 +65,8 @@
     "Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg.executor": "Run",
     "Python tests.Python tests in test_001_AccountRegistration.py.executor": "Run",
     "Python.AccountRegistrationPage.executor": "Run",
+    "Python.Number.executor": "Run",
+    "Python.customLogger.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -80,7 +82,7 @@
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\Opencart_V1.0_Selenium_Python\configurations" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg">
+  <component name="RunManager">
     <configuration name="AccountRegistrationPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Opencart_V1.0_Selenium_Python" />
       <option name="ENV_FILES" value="" />
@@ -135,8 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg" />
         <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg" />
+        <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg" />
         <item itemvalue="Python.AccountRegistrationPage" />
       </list>
     </recent_temporary>
@@ -285,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740874562847</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Adding New file on 2-march-2025">
+      <option name="closed" value="true" />
+      <created>1740876000844</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740876000844</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adding New file on 2-march-2025">
+      <option name="closed" value="true" />
+      <created>1740876146240</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740876146240</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adding New file on 2-march-2025">
+      <option name="closed" value="true" />
+      <created>1740876373474</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740876373474</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -318,11 +344,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCases/test_001_AccountRegistration.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,32 +1,46 @@
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from pageObjects.HomePage import HomePage
+from utilities.customLogger import logclass
 from utilities.randomString import random_string_generator
 import time
 import allure
 import pytest
+
 from dotenv import load_dotenv
 import os
 from utilities.screenshots import take_screen_shot
 
-class Test_001_AccountReg:
+
+class Test_001_AccountReg(logclass):
     load_dotenv()
+    #log =getthelogs("This is my first TestCase")# for logging
+
+
+
 
     @allure.title("Verify that Opencart Registration Account Testing")
     @allure.description("TC_001 Positive TestCase - Fill the registration form with Valid data and verify whether account created ")
     @allure.feature("Opencart Registration with Valid Credentials")
     @pytest.mark.Positive
-    def test_account_reg(self, setup):
+    def test_account_reg(self,setup):
+        log= self.getthelogs()
+        log.info("*** test_001_AccountRegistration started ***")
         self.driver = setup
         driver=self.driver
         self.driver.get(os.getenv("BASE_URL"))
+        log.info("*** Launching application ***")
+
 
         self.driver.maximize_window()
         time.sleep(2)
 
         self.hp = HomePage(self.driver)
         self.hp.clickMyAccount()
+        log.info("*** Clicking on MyAccount ***")
         self.hp.clickRegister()
+        log.info("*** Clicking on Register ***")
         self.regpage = AccountRegistrationPage(self.driver)
+        log.info("*** Providing Customer Details for Registration ***")
 
         # self.driver.execute_script("document.body.style.zoom='90%'")
 
@@ -67,9 +81,19 @@ class Test_001_AccountReg:
 
 
 
+        log.info("*** Account Registration is Passed ***")
+
+
+
+
         if self.confmsg == "Your Account Has Been Created!":
+
             assert True
         else:
 
+            log.error("*** Account Registration is Failed ***")
+
             assert False
+
+        log.info("*** test_001_AccountRegistration finished ***")
 
