@@ -36,7 +36,7 @@ Dry Run Testcases
 
 Dry Run Testcase HTML Report
 
-![image](![image](https://github.com/user-attachments/assets/e74354ea-24fa-4015-8e25-fb5e9073a972)
+![image](https://github.com/user-attachments/assets/e74354ea-24fa-4015-8e25-fb5e9073a972)
 
 
 
