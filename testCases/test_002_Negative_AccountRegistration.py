@@ -71,7 +71,7 @@ class Test_001_AccountReg(logclass):
         take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
         self.driver.close()
 
-        log.info("*** Account Registration is Passed ***")
+
 
 
 
@@ -79,7 +79,7 @@ class Test_001_AccountReg(logclass):
 
         if self.confmsg == "Account Has Been Created!":
             take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
-            log.info("*** Account Registration is Passed ***")
+
             assert True
         else:
 

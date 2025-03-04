@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 2-march-2025">
+    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 3-march-2025">
       <change afterPath="$PROJECT_DIR$/testCases/Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,23 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.executor": "Run",
-    "Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg.executor": "Run",
-    "Python tests.Python tests in test_001_AccountRegistration.py.executor": "Run",
-    "Python.AccountRegistrationPage.executor": "Run",
-    "Python.Number.executor": "Run",
-    "Python.customLogger.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_001_AccountRegistration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_002_Negative_AccountRegistration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.AccountRegistrationPage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.customLogger.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": []
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\Opencart_V1.0_Selenium_Python" />
@@ -311,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740876373474</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adding New file on 3-march-2025">
+      <option name="closed" value="true" />
+      <created>1740970174202</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740970174202</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -335,7 +345,8 @@
     <MESSAGE value="Adding New file on 28-feb-2025" />
     <MESSAGE value="Adding New file on 1-march-2025" />
     <MESSAGE value="Adding New file on 2-march-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 2-march-2025" />
+    <MESSAGE value="Adding New file on 3-march-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 3-march-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
