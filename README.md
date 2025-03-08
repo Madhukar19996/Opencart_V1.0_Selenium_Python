@@ -34,6 +34,12 @@ Dry Run Testcases
 
 ![image](https://github.com/Madhukar19996/Opencart_V1.0_Selenium_Python/blob/c5578acc47816cfbc3bef8ef6a1d023872fe309b/img_1.png)
 
+Dry Run Testcase HTML Report
+
+![image](https://github.com/user-attachments/assets/e74354ea-24fa-4015-8e25-fb5e9073a972)
+
+
+
 
 
 
