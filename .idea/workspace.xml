@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 8-march-2025">
+      <change afterPath="$PROJECT_DIR$/pageObjects/MyAccountPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_005_login_ddt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/XLUtils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -349,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741402049193</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adding New file on 8-march-2025">
+      <option name="closed" value="true" />
+      <created>1741403215072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1741403215072</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="UnknownFeatures">
