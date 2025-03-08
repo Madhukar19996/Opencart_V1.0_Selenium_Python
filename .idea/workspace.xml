@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 4-march-2025">
-      <change afterPath="$PROJECT_DIR$/pageObjects/LoginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/test_003_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/test_004_Negative_Login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/currentDatetime.py" afterDir="false" />
+    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 8-march-2025">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/screenshots.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/screenshots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741061221422</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Adding New file on 8-march-2025">
+      <option name="closed" value="true" />
+      <created>1741402049193</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1741402049193</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -376,7 +375,8 @@
     <MESSAGE value="Adding New file on 2-march-2025" />
     <MESSAGE value="Adding New file on 3-march-2025" />
     <MESSAGE value="Adding New file on 4-march-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 4-march-2025" />
+    <MESSAGE value="Adding New file on 8-march-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 8-march-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
