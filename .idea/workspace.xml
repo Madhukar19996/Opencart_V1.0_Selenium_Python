@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 3-march-2025">
+    <list default="true" id="3303431e-d81d-4cbc-8e81-45f8ac0ff94e" name="Changes" comment="Adding New file on 4-march-2025">
+      <change afterPath="$PROJECT_DIR$/pageObjects/LoginPage.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/testCases/Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_003_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCases/test_004_Negative_Login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/currentDatetime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_002_Negative_AccountRegistration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/customLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/customLogger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/screenshots.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/screenshots.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +48,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pageObjects/AccountRegistrationPage.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pageObjects/HomePage.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pageObjects/LoginPage.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testCases/conftest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/testCases/test_001_AccountRegistration.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/testCases/test_002.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -64,6 +68,7 @@
   &quot;keyToString&quot;: {
     &quot;Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_003_login.Test_Login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_001_AccountRegistration.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_002_Negative_AccountRegistration.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.AccountRegistrationPage.executor&quot;: &quot;Run&quot;,
@@ -84,7 +89,7 @@
       <recent name="C:\Users\Madhukar Pandey\PycharmProjects\Opencart_V1.0_Selenium_Python\configurations" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_003_login.Test_Login">
     <configuration name="AccountRegistrationPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Opencart_V1.0_Selenium_Python" />
       <option name="ENV_FILES" value="" />
@@ -137,8 +142,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_003_login.Test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Opencart_V1.0_Selenium_Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_003_login.Test_Login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_003_login.Test_Login" />
         <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg.test_account_reg" />
         <item itemvalue="Python tests.Python tests for test_001_AccountRegistration.Test_001_AccountReg" />
         <item itemvalue="Python.AccountRegistrationPage" />
@@ -321,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740970174202</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Adding New file on 4-march-2025">
+      <option name="closed" value="true" />
+      <created>1741061221422</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741061221422</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -346,7 +375,8 @@
     <MESSAGE value="Adding New file on 1-march-2025" />
     <MESSAGE value="Adding New file on 2-march-2025" />
     <MESSAGE value="Adding New file on 3-march-2025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 3-march-2025" />
+    <MESSAGE value="Adding New file on 4-march-2025" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding New file on 4-march-2025" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,3 +1,4 @@
+import utilities.currentDatetime
 from pageObjects.AccountRegistrationPage import AccountRegistrationPage
 from pageObjects.HomePage import HomePage
 from utilities.customLogger import logclass
@@ -67,7 +68,7 @@ class Test_001_AccountReg(logclass):
         time.sleep(2)
 
 
-        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg_with_invalid_data.png")
+        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg_with_invalid_data"+utilities.currentDatetime.take_current_time()+".png")
         take_screen_shot(driver=driver, name="OpencartRegistractionFailed")
         self.driver.close()
 

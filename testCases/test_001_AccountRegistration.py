@@ -5,7 +5,7 @@ from utilities.randomString import random_string_generator
 import time
 import allure
 import pytest
-
+import utilities.currentDatetime
 from dotenv import load_dotenv
 import os
 from utilities.screenshots import take_screen_shot
@@ -53,7 +53,7 @@ class Test_001_AccountReg(logclass):
         self.email =random_string_generator() + 'pandey@gmail.com'
 
         self.regpage.setEmail(self.email)
-        take_screen_shot(driver=driver, name="Random E-mail is Generated")
+        take_screen_shot(driver=driver,name="Random E-mail is Generated")
 
 
         time.sleep(1)
@@ -74,8 +74,8 @@ class Test_001_AccountReg(logclass):
         time.sleep(2)
 
 
-        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg.png")
-        take_screen_shot(driver=driver, name="OpencartRegistractionPassed")
+        self.driver.save_screenshot(os.path.abspath(os.curdir) + "\\screenshots\\" + "test_account_reg"+utilities.currentDatetime.take_current_time()+".png")
+        take_screen_shot(driver=driver,name="OpencartRegistractionPassed")
         self.driver.close()
 
 
